@@ -1,14 +1,17 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Header from './components/Layout/Header'
-// import styles from '../styles/Home.module.css'
+import Layout from './components/Layout'
 
+import Head
+  from 'next/head'
+import Content from './components/Content'
 const Home: NextPage = () => {
   return (
-    <div>
-      <Header />
-
-    </div>
+    <>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <title>Casarão Estúdios</title>
+      </Head>
+    </>
   )
 }
 

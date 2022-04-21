@@ -2,14 +2,16 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 	ul {
+
 		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
+		justify-content: space-around;
+		max-width: 1200px;
 		background: cyan;
 
 		li {
-			direction: none
+			list-style: none
 		}
+		
 	}
 
 `;

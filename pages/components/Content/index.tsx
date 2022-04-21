@@ -1,9 +1,9 @@
 import { Container } from './styles';
-
+import Image from 'next/image';
 function Content() {
   return (
     <Container>
-      <h1>Content</h1>
+      <Image src="/images/apple-icon-180x180.png" alt="Logo" width="180" height="180" />
     </Container>
   );
 };
