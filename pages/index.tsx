@@ -1,9 +1,7 @@
 import type { NextPage } from 'next'
-import Layout from './components/Layout'
+import Image from "next/image";
+import Head from 'next/head'
 
-import Head
-  from 'next/head'
-import Content from './components/Content'
 const Home: NextPage = () => {
   return (
     <>
@@ -11,6 +9,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <title>Casarão Estúdios</title>
       </Head>
+      <Image className='logo-home' src="/images/apple-icon-180x180.png" alt="Logo" width="200" height="200" />
     </>
   )
 }

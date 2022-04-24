@@ -5,5 +5,10 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: orange;
+  background: #272727;
+  margin: 5px;
+  
+  img {
+    border-radius: 50px;
+  }
 `;

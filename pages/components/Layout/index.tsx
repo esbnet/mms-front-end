@@ -13,7 +13,7 @@ function Layout({ children }: LayoutProps) {
   return (
     <Container>
       <Header />
-        <main>{children} </main>
+      <main>{children} </main>
       <Footer />
     </Container>
   );
